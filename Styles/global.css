@@ -1,114 +1,137 @@
 * {
     body {
-        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        padding: 0;
+        background-color: #141428;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+    }
+    h2 {
+        color: white;
+    }
+
+    p {
+        text-align: center;
+        color: white;
     }
 
     header
     {
         display: flex;
-        justify-content: space-between;
-        padding: 0em 10em 0em 10em;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+        padding: 2rem;
+    }
+
+    header img{
+        width: 40%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        border-radius: 50%;
+        padding-top: 1.5rem;
+    }
+
+    header h1 {
+        font-size: 1.4em;
+        padding-top: 2em;
+        color: white;
+        margin: 0.5rem;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    header p {
+        font-weight: 100;
+        font-size: 0.6rem;
+    }
+
+    .container {
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        margin: auto;
+
+    }
+
+    .sec-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center; 
+        align-items: center;
+        background-color: #141428;
+
+        padding: 1.5rem;
+
+        margin: auto;
+        max-width: 80vw;
+
+    }
+
+    sec-1 h2{
+        display: block;
+        text-align: center;
         
     }
 
-    section {
-        background-color:rgb(255, 255, 255);
-        height: 400px;
-        border-radius: 20px;
-        display: flex;
-        align-items: center; 
-        padding: 2em 10em 2em 10em;       
+    .demo {
+        width: 70vw;
+        border-radius: 1rem;
     }
 
-    .sec-1{
-        background-color: #b4c0c3;
-        padding: 2em 10em 2em 10em;
-    }
 
     .sec-2{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center; 
         align-items: center;
+        background-color: #141428;
+
+        padding: 1.5rem;
+
+        margin: auto;
+        max-width: 80vw;
     }
 
     .sec-3{
         display: flex;
         flex-direction: column;
-        padding: 0;
-    }
-
-    .sec-3  p 
-    {
-        font-size: 0.8em;
-        margin: 0.3em;
-    }
-
-    h4{
-        margin: 0;
-        padding: 0;
-    }
-
-    article {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .demo {
-        height: 300px;
-        padding-right: 20px;
-    }
-
-    nav {
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
         justify-content: center;
-    }
-
-    label {
-        display: flex;
-        margin-top: 10px;
-    }
-    input, textarea, button {
-        width: 250px;
-        padding: 5px;
-        margin-top: 5px;
-        border-radius: 2px;
-    }
-    button {
-        background-color: #364245;
-        color: white;
-        border: none;
-        cursor: pointer;
-        padding: 10px;
-        margin: auto;
-        margin-top: 5px;
-        width: 262px;
-        align-self: center;
-    }
-    button:hover {
-        background-color: #636363;
-    }
-
-    .form-bg{
-        background-color: rgb(255, 255, 255);
-        display: flex;
+        text-align: center; 
         align-items: center;
-        padding: 20px;
-        border-radius: 1em;
-        height: 22em;
-        max-width: 263px;
-        min-width: 263px;
+        background-color: #141428;
+
+        padding: 1.5rem;
+
+        margin: auto;
+        max-width: 80vw;
     }
 
-    .title-form{
-        margin: 0;
-        padding: 0;
-        font-weight: bold;
+    section {
+        background-color:#ffffff;
+        width: 90vw;
+        border-radius: 20px;
+        display: flex;   
+        min-width: 80vw;
+
+
+        background: linear-gradient(to bottom, #3c0028, #141428);
     }
 
+    img {
+        width: 30px;
+    }
 
 
 }
