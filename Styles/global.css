@@ -26,6 +26,9 @@
         text-align: center;
         color: white;
     }
+    p {
+        line-height: 1.2rem;
+    }
 
     h2{
         padding: 0px 10px;
