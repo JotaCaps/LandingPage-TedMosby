@@ -93,8 +93,12 @@
         height: 30px;
     }
 
+    header{
+        padding: 4rem 2rem 2rem 2rem;
+    }
+
     header img{
-        width: 40em;
+        width: 30em;
     }
 
     header h1 {
@@ -102,7 +106,7 @@
     }
 
     nav img {
-        width: 100px;
+        width: 70px;
     }
 
     .icon{
