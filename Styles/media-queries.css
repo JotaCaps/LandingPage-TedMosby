@@ -18,11 +18,16 @@
     }
 
     button{
-        width: 40vw;
-        height: 8vh;
-        font-size: 2rem;
+        width: 300px;
+        height: 60px;
+        font-size: 1.5rem;
         margin: 2;
         border-radius: 100px;
+    }
+
+    .btn-foot{
+        width: 215px;
+        height: 30px;
     }
 
     header img{
@@ -30,7 +35,7 @@
     }
 
     header h1 {
-        font-size: 3em;
+        font-size: 2em;
     }
 
     nav img {
@@ -54,15 +59,25 @@
 
     .text-content{
         width: 40vw;
-        margin: 2rem;
+        margin: 1rem;
     }
 
     button{
-        width: 40vw;
-        height: 8vh;
-        font-size: 2rem;
+        height: 60px;
+        font-size: 1rem;
         margin: 2;
         border-radius: 100px;
+    }
+
+    .btn-main{
+        width: 300px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+
+    .btn-foot{
+        width: 215px;
+        height: 30px;
     }
 
     header img{
@@ -70,7 +85,7 @@
     }
 
     header h1 {
-        font-size: 3em;
+        font-size: 2em;
     }
 
     nav img {
@@ -91,15 +106,25 @@
 
     .text-content{
         width: 55vw;
-        margin: 2rem;
+        margin: 1rem;
     }
 
     .demo{
         width: 55vw;
     }
 
+    .btn-main{
+        width: 200px;
+        height: 30px;
+    }
+
     ul{
         padding-inline-start: 0px;
+    }
+
+    .btn-foot{
+        width: 215px;
+        height: 30px;
     }
 }
 
@@ -112,11 +137,15 @@
     }
 
     button{
-        width: 250px;
-        height: 5vh;
+
+        height: 25px;
         font-size: 1rem;
-        margin: 2;
         border-radius: 50px;
+    }
+
+    .btn-foot{
+        width: 215px;
+        height: 30px;
     }
 
     header h1 {
@@ -129,7 +158,7 @@
 
     .text-content{
         width: 60vw;
-        margin: 2rem;
+        margin: 1rem;
     }
 
     .prova-social

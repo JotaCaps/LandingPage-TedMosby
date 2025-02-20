@@ -10,14 +10,16 @@
 </head>
 <body>
     <nav>
+        <a href="#sobre">Sobre</a>
         <img src="Images/logo-png.png" alt="">
+        <a href="#contato">Contato</a>
     </nav>
     <header>
         <img src="Images/BR5I6WA7A5FCJF5OEDKZBFY324.jpg" alt="">
         <h1>Ted Mosby - Arquiteto</h2>
             <div class="header-content">
                 <h1> O SEU PROJETO DOS SONHOS, DESENHADO COM AMOR (E UM POUCO DE DRAMA)!</h1>
-                <button>Fazer Orçamento</button>
+                <button class="btn-main">Fazer Orçamento</button>
             </div>
     </header>
     <main>
@@ -40,7 +42,7 @@
             </section>
         </div>
         <div class="container">
-            <section class="sec-2">
+            <section id="sobre" class="sec-2">
                 <h2>QUEM SOU EU?</h2>
                 <img class="demo" src="Images/tet-o-arquiteto.jpg" alt="">
                 <div class="text-content">
@@ -49,9 +51,23 @@
                     Agora, vamos tomar uma cerveja no MacLaren’s e discutir os detalhes?</p>
                 </div>
             </section>
+            <section class="sec-3">
+                <h2>PROJETOS E EXPERIÊNCIA</h2>
+                <img class="demo" src="Images/proff-ted.jpg" alt="">
+                <div class="text-content">
+                    <p class="quem-eu-sou">Com anos de experiência, Ted Mosby trabalhou em diversas construções icônicas, incluindo prédios comerciais e residenciais de alto padrão. Além de sua atuação na arquitetura, ele compartilha seu conhecimento como professor universitário, inspirando novas gerações de arquitetos a explorarem sua criatividade.</p>
+                </div>
+            </section>
+            <section class="sec-4">
+                <h2>PROJETOS DE DESTAQUE</h2>
+                <img class="demo" src="Images/ted-construct.jpg" alt="">
+                <div class="text-content">
+                    <p class="quem-eu-sou">Ted esteve envolvido em diversas construções icônicas, incluindo arranha-céus, prédios comerciais e espaços culturais. Seu compromisso com a excelência e sua paixão pelo design fazem dele uma referência no mercado, garantindo que cada projeto tenha uma identidade única e atenda às necessidades de seus clientes</p>
+                </div>
+            </section>
         </div>
         <div class="container">
-            <section class="sec-3">
+            <section class="sec-5">
                 <h2>Quem conhece, recomenda</h2>
                 <div class="text-content">
                     <img class="demo" src="Images/Barney-Stinson-HIMYM.jpg" alt="">
@@ -62,7 +78,7 @@
                 <div class="text-content">
                     <img class="demo" src="Images/4x12_008.jpg" alt="">
                     <p class="prova-social">"Eu sou canadense, então sei reconhecer algo bem construído – e o Ted realmente mandou bem. Se os arquitetos de Vancouver fossem assim, talvez minha cidade tivesse arranha-céus de verdade."
-                        — Robin Scherbatsky</p>
+                        <br> — Robin Scherbatsky</p>
                         <hr>
                 </div>
                 <div class="text-content">
@@ -72,11 +88,23 @@
                         <hr>                 
                 </div>
 
-                <div class="sec-4">
+                <section id="contato" class="sec-6">
                     <div>
-                        <button>Fazer Orçamento</button>
+                        <h2>Entre em Contato</h2>
+            <form action="submit.php" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button class="btn-foot" type="submit">Enviar</button>
+            </form>
                     </div>
-                </div>
+                </section>
                 
             </section>
         </div>
